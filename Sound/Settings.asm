@@ -47,18 +47,18 @@ SMPS_Asserts			= 0
 SMPS_SoundTest			= 0
 ;	| If 1, some some extra logic for my 'sound test' homebrew is enabled.
 
-SMPS_S1DACSamples		= 0
-SMPS_S2DACSamples		= 0
+SMPS_S1DACSamples		= 1
+SMPS_S2DACSamples		= 1
 SMPS_S3DACSamples		= 1
 SMPS_SKDACSamples		= 1
-SMPS_S3DDACSamples		= 0
-SMPS_SCDACSamples		= 0
+SMPS_S3DDACSamples		= 1
+SMPS_SCDACSamples		= 1
 
-SMPS_S1PSGEnvelopes		= 0
-SMPS_S2PSGEnvelopes		= 0
+SMPS_S1PSGEnvelopes		= 1
+SMPS_S2PSGEnvelopes		= 1
 SMPS_S3PSGEnvelopes		= 1
 SMPS_SKPSGEnvelopes		= 1
-SMPS_S3DPSGEnvelopes		= 0
+SMPS_S3DPSGEnvelopes		= 1
 SMPS_KCPSGEnvelopes		= 0
 
 ; ---DISASM-DEPENDANT VARIABLES AND FUNCTIONS---
