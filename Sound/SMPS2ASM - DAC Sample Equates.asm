@@ -1,5 +1,7 @@
 ; DAC Equates
 
+dac__First = __ST_SampleID+1
+
 	if SMPS_S1DACSamples||SMPS_S2DACSamples
 ; Sonic 1 & 2
 dKick =		dac81.id

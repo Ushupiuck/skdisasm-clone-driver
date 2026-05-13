@@ -50,8 +50,8 @@ dacA1:	dcSample	TYPE_PCM, ElectricTom, 20513			; $A1	- Electric High-Tom
 dacA2:	dcSample	TYPE_PCM, ElectricTom, 15803			; $A2	- Electric Mid-Tom
 dacA3:	dcSample	TYPE_PCM, ElectricTom, 13482			; $A3	- Electric Low-Tom
 dacA4:	dcSample	TYPE_PCM, ElectricTom, 11274			; $A4	- Electric Floor-Tom
-dacA5:	dcSample	TYPE_PCM, SnareS32, 16766			; $A5	- Mid-Pitch Snare
-dacA6:	dcSample	TYPE_PCM, SnareS32, 13482			; $A6	- Tight Snare
+dacA5:	dcSample	TYPE_PCM, SnareS32, 16766			; $A5	- Tight Snare
+dacA6:	dcSample	TYPE_PCM, SnareS32, 13482			; $A6	- Mid-Pitch Snare
 dacA7:	dcSample	TYPE_PCM, SnareS32, 11755			; $A7	- Loose Snare
 dacA8:	dcSample	TYPE_PCM, SnareS32, 9687			; $A8	- Looser Snare
 dacA9:	dcSample	TYPE_PCM, TimpaniS3, 12852			; $A9	- Hi-Timpani (S3)
@@ -107,13 +107,13 @@ dacD4:	dcSample	TYPE_PCM, HipHopHitKick, 12852			; $D4	- Lowest Power Kick Hit
 	if SMPS_S3DDACSamples
 			; Sonic 3D
 dacD5:	dcSample	TYPE_PCM, MetalCrashS3D, 24104			; $D5	- Final Fight Metal Crash
-dacD6:	dcSample	TYPE_PCM, MetalCrashS3D, 9687			; $D6	- Intro Kick
+dacD6:	dcSample	TYPE_PCM, IntroKickS3D, 9687			; $D6	- Intro Kick
 	endif
 
 	if SMPS_S3DACSamples
 			; Sonic 3
 dacD7:	dcSample	TYPE_PCM, EchoedClapHitS3, 8492			; $D7	- Echoed Clap Hit (S3)
-dacD8:	dcSample	TYPE_PCM, EchoedClapHitS3, 6490			; $D8	- Lower Echoed Clap Hit(S3)	; Clownacy | Good golly, we're close to reaching Mega PCM's limit...
+dacD8:	dcSample	TYPE_PCM, EchoedClapHitS3, 6490			; $D8	- Lower Echoed Clap Hit(S3)
 	endif
 
 	if SMPS_SCDACSamples
@@ -124,7 +124,7 @@ dacDB:	dcSample	TYPE_PCM, TimTom, 13610				; $DB	- Hi Timpani/Tom (SC)
 dacDC:	dcSample	TYPE_PCM, TimTom, 11363				; $DC	- Mid Timpani/Tom (SC)
 dacDD:	dcSample	TYPE_PCM, TimTom, 10497				; $DD	- Low Timpani/Tom (SC)
 dacDE:	dcSample	TYPE_PCM, LetsGo, 13610				; $DE	- "Let's Go!"
-dacDF:	dcSample	TYPE_PCM, Hey, 13610				; $DF	- "Hey!"	; Clownacy | X_X Extending the DAC range is going to take some creativity...
+dacDF:	dcSample	TYPE_PCM, Hey, 13610				; $DF	- "Hey!"
 	endif
 
 dacE0:	dcSample	TYPE_PCM, SegaPCM, 16000, FLAGS_SFX		; $E0	- Sega!

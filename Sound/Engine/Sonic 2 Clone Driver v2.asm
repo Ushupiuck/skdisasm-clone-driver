@@ -15,7 +15,6 @@
 
 ; sub_71B4C: UpdateMusic:
 SMPS_UpdateDriver:
-	; FIXME: SMPS running flag
     if ((Clone_Driver_RAM)&$8000)==0
 	lea	(Clone_Driver_RAM).l,a6
     else
